@@ -1,0 +1,3 @@
+ErrorDocument	404	http://localhost/php/htaccess_islemleri/hata.html
+RewriteEngine	On
+RewriteRule	^(.*)?	index.php?=$1	[QSA]
